@@ -8,4 +8,5 @@ stream.close()
 def parameters=props.keySet() as String[];
 parameters= parameters.sort { it.size() }
 def var = Arrays.asList(parameters)
+System.out.println(var)
 return var
